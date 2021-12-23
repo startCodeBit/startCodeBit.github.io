@@ -1,0 +1,23 @@
+{
+	"name": "bitcity.github.io",
+	"version": "1.0.0",
+	"description": "XTime BitCity",
+	"main": "index.html",
+	"scripts": {
+		"dev": "http-server -c-1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/XtimeOfficialX/BitCity.github.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/XtimeOfficialX/BitCity.github.io/issues"
+	},
+	"homepage": "https://github.com/XtimeOfficialX/BitCity.github.io#readme",
+	"devDependencies": {
+		"http-server": "^14.0.0"
+	}
+}

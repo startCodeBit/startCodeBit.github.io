@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Gill Sans MT";
+	src: url("/assets/fonts/Gill-Sans-MT.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Maiandra GD";
+	src: url("/assets/fonts/Maiandra-GD.woff") format("woff");
+}
