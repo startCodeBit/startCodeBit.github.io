@@ -1,9 +1,82 @@
 @font-face {
-	font-family: "Gill Sans MT";
-	src: url("../../assets/fonts/Gill-Sans-MT.woff") format("woff");
+    font-family: "Gill Sans MT";
+    src: url("../../assets/fonts/Gill-Sans-MT.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Maiandra GD";
-	src: url("../../assets/fonts/Maiandra-GD.woff") format("woff");
+    font-family: "Maiandra GD";
+    src: url("../../assets/fonts/Maiandra-GD.woff") format("woff");
+}
+
+html,
+body,
+.app {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top left, #512592, #151b4f); /* 自右下向左上渐变 */
+}
+
+.background {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 896px;
+    height: 741px;
+    background-image: url("../../assets/img/bg.webp");
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    border: none;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.connect-wallet {
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+
+.btn {
+    color: white;
+    background-color: #4e68fb;
+    border: none;
+}
+
+.btn-big {
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.info {
+    position: absolute;
+    width: 40%;
+    left: 8%;
+    top: 25%;
+}
+
+.info-title,
+.info-description {
+    color: white;
+}
+
+.info-title {
+    font-family: "Gill Sans MT";
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.info-description {
+    font-family: "Maiandra GD";
+    font-size: 20px;
 }
