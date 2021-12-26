@@ -233,7 +233,7 @@ body {
     position: absolute;
     width: 15%;
     height: 50%;
-    background: rgb(39, 38, 44);
+    background: rgb(50 43 76);;
     border: 1px solid rgb(82, 75, 99);
     border-radius: 32px;
 }
@@ -268,7 +268,7 @@ body {
     align-items: center;
     font-size: 16px;
     font-weight: 600;
-    color: rgb(31, 199, 212);
+    color: white;
     margin-bottom: 8px;
     background-color: rgb(53, 53, 71);
     border-radius: 16px;
