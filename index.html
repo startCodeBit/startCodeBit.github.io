@@ -22,6 +22,10 @@
         <img class="background-icon bit-icon-two" src="assets/img/bit-coin-logo.png">
         <img class="background-icon bit-icon-three" src="assets/img/bit-coin-logo.png">
         <img class="background-icon bit-icon-four" src="assets/img/bit-coin-logo.png">
+        <img class="background-icon dollar-icon" src="assets/img/dollar.png">
+        <img class="background-icon elevator-icon" src="assets/img/elevator.png">
+        <img class="background-icon email-icon" src="assets/img/email.png">
+        <img class="background-icon node-icon" src="assets/img/node.png">
     </div>
     <div class="logo">
         <img src="assets/img/bit-city-logo-white.png">
@@ -41,7 +45,7 @@
         </div>
     </header>
     <div class="connect-wallet">
-        <button class="btn btn-big">Connect Wallet</button>
+        <button class="btn btn-big" id="connect-wallet">Connect Wallet</button>
     </div>
     <div class="info">
         <p class="info-title">What is BITCITY</p>
@@ -62,11 +66,47 @@
                 <input type="password">
             </div>
             <div class="login-form-item login-btn">
-                <button class="btn btm-small">Login</button>
-                <button class="btn btm-small">Buy NFT</button>
+                <button class="btn btm-small" id="btn-login">Login</button>
+                <div>
+                    <button class="btn btm-small" id="btn-buy-nft">Buy NFT</button>
+                    <ul class="dropdown-menu" id="buy-nft-drop-menu">
+                        <li>Coming Soon</li>
+                    </ul>
+                </div>
             </div>
         </form>
     </div>
+    <div id="wallet-select">
+        <div class="wallet-modal"></div>
+        <div class="wallet-list">
+            <div class="wallet-list-header">
+                <p class="wallet-list-header-title">Connect to a wallet</p>
+                <p id="wallet-select-close">X</p>
+            </div>
+            <div class="wallet-list-body">
+                <div class="wallet-list-item">
+                    <p>MetaMask</p>
+                    <img src="assets/wallet/meta-wallet.jpg">
+                </div>
+                <div class="wallet-list-item">
+                    <p>TrustWallet</p>
+                    <img src="assets/wallet/trust-wallet.ico">
+                </div>
+                <div class="wallet-list-item">
+                    <p>MathWallet</p>
+                    <img src="assets/wallet/math-wallet.ico">
+                </div>
+                <div class="wallet-list-item">
+                    <p>TokenPocket</p>
+                    <img src="assets/wallet/token-pocket.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img class="footer-logo" src="assets/img/x-time-logo.png">
+    </footer>
 </div>
+<script src="src/js/main.js"></script>
 </body>
 </html>

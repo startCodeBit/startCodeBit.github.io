@@ -59,6 +59,26 @@ body {
     animation: beating 0.8s linear 3s infinite;
 }
 
+.elevator-icon {
+    top: 123px;
+    left: 290px;
+}
+
+.dollar-icon {
+    top: 318px;
+    left: 370px;
+}
+
+.email-icon {
+    top: 532px;
+    left: 240px;
+}
+
+.node-icon {
+    top: 121px;
+    left: 516px;
+}
+
 .logo {
     position: absolute;
     width: 10%;
@@ -105,6 +125,7 @@ body {
     color: white;
     background-color: #4e68fb;
     border: none;
+    cursor: pointer;
 }
 
 .btn-big {
@@ -182,6 +203,101 @@ body {
 
 .login .btn {
 
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 10%;
+}
+
+#wallet-select {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wallet-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(69, 42, 122);
+    transition: opacity 0.4s ease 0s;
+    opacity: 0.6;
+}
+
+.wallet-list {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    background: rgb(39, 38, 44);
+    border: 1px solid rgb(82, 75, 99);
+    border-radius: 32px;
+}
+
+.wallet-list-header {
+    align-items: center;
+    background: transparent;
+    border-bottom: 1px solid rgb(82, 75, 99);
+    display: flex;
+    padding: 12px 24px;
+}
+
+.wallet-list-header-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#wallet-select-close {
+    margin-left: 50px;
+    font-size: 18px;
+    color: blanchedalmond;cursor: pointer;
+}
+
+.wallet-list-body {
+    padding: 24px
+}
+
+.wallet-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(31, 199, 212);
+    margin-bottom: 8px;
+    background-color: rgb(53, 53, 71);
+    border-radius: 16px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+.wallet-list-item img {
+    width: 32px;
+    border-radius: 16px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    color: #212529;
+}
+
+.dropdown-menu li {
+    padding: 0 10px;
 }
 
 @keyframes beating {
