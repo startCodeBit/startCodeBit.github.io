@@ -30,6 +30,35 @@ body {
     background-size: cover;
 }
 
+.background-icon {
+    position: absolute;
+    width: 50px;
+}
+
+.bit-icon-first {
+    top: 272px;
+    left: 181px;
+    animation: beating 0.8s linear 0s infinite;
+}
+
+.bit-icon-two {
+    top: 105px;
+    left: 397px;
+    animation: beating 0.8s linear 1.5s infinite;
+}
+
+.bit-icon-three {
+    top: 220px;
+    left: 614px;
+    animation: beating 0.8s linear 2s infinite;
+}
+
+.bit-icon-four {
+    top: 237px;
+    left: 713px;
+    animation: beating 0.8s linear 3s infinite;
+}
+
 .logo {
     position: absolute;
     width: 10%;
@@ -40,10 +69,36 @@ body {
     width: 100%;
 }
 
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    left: 30%;
+    top: 6%;
+    color: white;
+}
+
+.header-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow-down {
+    position: relative;
+    bottom: 4px;
+    margin-left: 10px;
+    border: solid #b2b2b2;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+}
+
 .connect-wallet {
     position: absolute;
     top: 5%;
-    right: 25%;
+    right: 20%;
 }
 
 .btn {
@@ -58,9 +113,15 @@ body {
     padding: 10px 25px;
 }
 
+.btm-small {
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+}
+
 .info {
     position: absolute;
-    width: 40%;
+    width: 35%;
     left: 8%;
     top: 25%;
 }
@@ -79,4 +140,69 @@ body {
 .info-description {
     font-family: "Maiandra GD";
     font-size: 20px;
+}
+
+.login {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 15%;
+    color: white;
+}
+
+.login-form-item {
+    margin-bottom: 30px;
+}
+
+.login label {
+    padding-left: 10px;
+}
+
+.login input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #151b4f;
+}
+
+.login input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+
+.login-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .btn {
+
+}
+
+@keyframes beating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(20px) scale(1.1, 0.9);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
 }
