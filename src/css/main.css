@@ -16,67 +16,83 @@ body,
     height: 100%;
 }
 
+html {
+	font-size: 1px;
+}
+
+@media screen and (min-width: 1921px){
+	html {
+		font-size: 1.5px;
+	}
+}
+
+@media screen and (min-width: 2561px){
+	html {
+		font-size: 2px;
+	}
+}
+
 body {
     background-image: linear-gradient(to top left, #512592, #151b4f); /* 自右下向左上渐变 */
 }
 
 .background {
     position: absolute;
-    right: 100px;
-    bottom: 100px;
-    width: 896px;
-    height: 741px;
+    right: 100rem;
+    bottom: 100rem;
+    width: 896rem;
+    height: 741rem;
     background-image: url("../../assets/img/bg.webp");
     background-size: cover;
 }
 
 .background-icon {
     position: absolute;
-    width: 50px;
+    width: 50rem;
 }
 
 .bit-icon-first {
-    top: 272px;
-    left: 181px;
+    top: 272rem;
+    left: 181rem;
     animation: beating 0.8s linear 0s infinite;
 }
 
 .bit-icon-two {
-    top: 105px;
-    left: 397px;
+    top: 105rem;
+    left: 397rem;
     animation: beating 0.8s linear 1.5s infinite;
 }
 
 .bit-icon-three {
-    top: 220px;
-    left: 614px;
+    top: 220rem;
+    left: 614rem;
     animation: beating 0.8s linear 2s infinite;
 }
 
 .bit-icon-four {
-    top: 237px;
-    left: 713px;
+    top: 237rem;
+    left: 713rem;
     animation: beating 0.8s linear 3s infinite;
 }
 
 .elevator-icon {
-    top: 123px;
-    left: 290px;
+    top: 123rem;
+    left: 290rem;
 }
 
 .dollar-icon {
-    top: 318px;
-    left: 370px;
+    top: 318rem;
+    left: 370rem;
 }
 
 .email-icon {
-    top: 532px;
-    left: 240px;
+    top: 532rem;
+    left: 240rem;
 }
 
 .node-icon {
-    top: 121px;
-    left: 516px;
+    top: 121rem;
+    left: 516rem;
 }
 
 .logo {
@@ -100,7 +116,7 @@ body {
 }
 
 .header-item {
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: bold;
 }
 
@@ -121,6 +137,10 @@ body {
     right: 20%;
 }
 
+#connect-wallet {
+	font-size: 16rem;
+}
+
 .btn {
     color: white;
     background-color: #4e68fb;
@@ -129,15 +149,15 @@ body {
 }
 
 .btn-big {
-    height: 50px;
-    border-radius: 25px;
-    padding: 10px 25px;
+    height: 50rem;
+    border-radius: 25rem;
+    padding: 10rem 25rem;
 }
 
 .btm-small {
-    height: 40px;
-    border-radius: 20px;
-    width: 100px;
+    height: 40rem;
+    border-radius: 20rem;
+    width: 100rem;
 }
 
 .info {
@@ -154,13 +174,13 @@ body {
 
 .info-title {
     font-family: "Gill Sans MT";
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: bolder;
 }
 
 .info-description {
     font-family: "Maiandra GD";
-    font-size: 20px;
+    font-size: 20rem;
 }
 
 .login {
@@ -169,24 +189,25 @@ body {
     left: 10%;
     width: 15%;
     color: white;
+	font-size: 16rem;
 }
 
 .login-form-item {
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 
 .login label {
-    padding-left: 10px;
+    padding-left: 10rem;
 }
 
 .login input {
     width: 100%;
-    height: 40px;
-    margin-top: 20px;
-    border-radius: 20px;
+    height: 40rem;
+    margin-top: 20rem;
+    border-radius: 20rem;
     border: none;
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 20rem;
+    padding-left: 20rem;
     color: #151b4f;
 }
 
@@ -195,14 +216,13 @@ body {
     outline: none;
 }
 
-
 .login-btn {
     display: flex;
     justify-content: space-between;
 }
 
 .login .btn {
-
+	font-size: 16rem;
 }
 
 .footer-logo {
@@ -243,18 +263,18 @@ body {
     background: transparent;
     border-bottom: 1px solid rgb(82, 75, 99);
     display: flex;
-    padding: 12px 24px;
+    padding: 12rem 24rem;
 }
 
 .wallet-list-header-title {
+	flex: 1;
     color: white;
-    font-size: 18px;
+    font-size: 18rem;
     font-weight: bold;
 }
 
 #wallet-select-close {
-    margin-left: 50px;
-    font-size: 18px;
+    font-size: 18rem;
     color: blanchedalmond;cursor: pointer;
 }
 
@@ -266,7 +286,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 600;
     color: white;
     margin-bottom: 8px;
@@ -277,8 +297,8 @@ body {
 }
 
 .wallet-list-item img {
-    width: 32px;
-    border-radius: 16px;
+    width: 32rem;
+    border-radius: 16rem;
 }
 
 .dropdown-menu {
